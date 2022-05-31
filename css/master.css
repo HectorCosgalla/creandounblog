@@ -1,0 +1,18 @@
+html{
+    font-family:'inconsolata', monospace;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    color: green;
+}
+
+#main_title{
+    margin: 0;
+    padding: 2% 45%;
+    text-align: center;
+}
