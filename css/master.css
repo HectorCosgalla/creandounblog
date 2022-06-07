@@ -1,9 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
 html{
     font-family:'inconsolata', monospace;
-}
-
-body{
-    margin: 0;
 }
 
 .header{
@@ -15,4 +17,38 @@ body{
     margin: 0;
     padding: 2% 45%;
     text-align: center;
+}
+
+.recent_post{
+    display: grid;
+    margin: 2%;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    grid-template: 
+        "mr_post mr_post" auto
+        "mrp_img mrp_title"
+        "mrp_img mrp_paragraph"
+        "mrp_img mrp_button";/**mr = most_recent**/
+}
+
+#most_recent_post{
+    grid-area: mr_post;
+}
+
+#mr_post_img{
+    width: 100%;
+    height: 100%;
+    grid-area: mrp_img;
+}
+
+#mr_post_title{
+    grid-area: mrp_title;
+}
+
+#mr_post_paragraph{
+    grid-area: mrp_paragraph;
+}
+
+#mr_post_button{
+    grid-area: mrp_button;
 }
