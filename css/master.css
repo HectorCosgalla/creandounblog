@@ -10,6 +10,15 @@ html{
     color: green;
 }
 
+a{
+    text-decoration: none;
+    color: green;
+}
+
+.button:hover{
+    text-decoration: underline;
+}
+
 .header{
     display: inherit;
 }
@@ -79,6 +88,7 @@ html{
 .about_me *{
     padding: 1%;
 }
+
 
 @media (max-width:600px) {
     .recent_post{

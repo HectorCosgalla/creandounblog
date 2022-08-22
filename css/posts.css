@@ -1,0 +1,17 @@
+.post_title{
+    text-align: center;
+}
+
+.post_body{
+    margin: 2% 20%;
+}
+
+.post_body img{
+    max-width: 100%;
+    height: auto;
+}
+
+.post_body *{
+    padding: 2% 0;
+    text-align: justify;
+}
