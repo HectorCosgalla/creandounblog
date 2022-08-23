@@ -1,3 +1,8 @@
+footnote{
+    font-size: small;
+}
+
+
 .post_title{
     text-align: center;
 }
@@ -14,4 +19,22 @@
 .post_body *{
     padding: 2% 0;
     text-align: justify;
+}
+
+.centered{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+.less_padding{
+    padding: .5% 0;
+}
+
+.less_padding *{
+    padding: .5% 0;
+}
+
+.img_with_text p{
+    text-align: center;
+    font-size: small;
 }
