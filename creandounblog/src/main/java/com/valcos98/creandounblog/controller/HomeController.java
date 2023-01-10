@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    @GetMapping("../")
+    @GetMapping("/creandounblog")
     public String minimain(Model model){
         return "index";
     }
