@@ -1,4 +1,4 @@
-package com.valcos98.controller;
+package com.valcos98.creandounblog.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
