@@ -9,7 +9,7 @@ public class HomeController {
 
     @GetMapping("/creandounblog")
     public String minimain(Model model){
-        return "index";
+        return "home";
     }
 
     @GetMapping("/posts/primer_post")
