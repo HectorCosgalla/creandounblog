@@ -14,7 +14,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    private String Title;
+    private String title;
 
     @Column(columnDefinition= "TEXT")
     private String body;
