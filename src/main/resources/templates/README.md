@@ -1,2 +1,0 @@
-# creandounblog
-Repositorio oficial de la aberracion (como la voy a llamar de cariño) llamada "creandounblog", un blog dedicado unica y exclusivamente a su propia creacion, ¿un poco loco? quizá, ¿me tiene preocupado? en lo mas minimo, por mientras sientate e intenta relajarte mientras lees el codigo spaghetti que voy a ir haciendo mientras aprendo
