@@ -12,6 +12,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class Account {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
