@@ -1,5 +1,7 @@
 package com.valcos98.creandounblog.Services;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,5 +15,9 @@ public class AccountServices {
 
     public Account save(Account account){
         return accountRepository.save(account);
+    }
+
+    public Optional<Account> getAccountById(Long id){
+        return accountRepository.findById(id);
     }
 }
